@@ -1,0 +1,41 @@
+
+
+.animal_information{
+  padding:15px;
+  width:300px;
+}
+
+h2{
+  padding:5px;
+}
+.interesting_fact {
+  font-style: italic;
+  }
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+
+li span {
+  font-weight:bold;
+}
+
+
+div{
+  border: 5px solid black;
+  padding:15px;
+  width:330px;
+  text-align: left;
+}
+
+.animal_picture {
+  padding: 15px;
+  border: 5px solid black;
+  width:300px;
+}
+
+.animal_Card{
+  box-shadow: 10px 10px 8px #888888;
+}
