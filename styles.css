@@ -1,41 +1,44 @@
-
-
-.animal_information{
-  padding:15px;
-  width:300px;
+body {
+    text-align: center;
 }
 
-h2{
-  padding:5px;
-}
-.interesting_fact {
-  font-style: italic;
-  }
-
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding:0;
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
 }
 
-li span {
-  font-weight:bold;
+h2 {
+    margin: 1em 0 0.25em;
 }
 
-
-div{
-  border: 5px solid black;
-  padding:15px;
-  width:330px;
-  text-align: left;
+h2:first-of-type {
+    margin-top: 0.5em;
 }
 
-.animal_picture {
-  padding: 15px;
-  border: 5px solid black;
-  width:300px;
+table,
+tr,
+td {
+    border: 1px solid black;
 }
 
-.animal_Card{
-  box-shadow: 10px 10px 8px #888888;
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+.highlight {
+    background-color: #fff;
 }
